@@ -1,0 +1,6 @@
+head(faithful)    #Displays the first 6 rows of the data set "faithful"
+tail (faithful)   #Displays the last 6 rows of the data set "faithful"
+tail(faithful, 10) #Displays the last 10 rows of the data set "faithful"
+waiting<-faithful$waiting    #consider only the variable "waiting"
+mean(waiting)              #calculates the mean of the variable "waiting"
+hist(waiting)             #Displays the histogram of the variable "waiting"
